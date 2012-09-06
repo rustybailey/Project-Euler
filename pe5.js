@@ -4,7 +4,7 @@
 
 var divisible = function(num1, num2) {
     var allDivided = false;
-	var smallestNum = 1;
+	var smallestNum = num1;
 	while (allDivided === false) {
 		for (var i = num1; i <= num2; i++) {
 			if (smallestNum % i !== 0){
